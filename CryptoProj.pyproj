@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dc2753f4-50f3-4b3d-94ce-c35a393f0fc8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CryptoProj.py</StartupFile>
+    <StartupFile>len_ext_attack.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CryptoProj.py" />
+    <Compile Include="len_ext_attack.py" />
+    <Compile Include="pymd5.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
